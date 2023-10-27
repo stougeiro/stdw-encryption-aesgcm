@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "faf0fb5a00715aaf9b737f413233b360",
+    "content-hash": "d187ead07a26ac7fc6eca3e9fd93dba3",
     "packages": [
         {
             "name": "psr/container",
@@ -153,6 +153,46 @@
                 "source": "https://github.com/stougeiro/stdw-contract/tree/main"
             },
             "time": "2023-10-26T15:21:57+00:00"
+        },
+        {
+            "name": "stougeiro/stdw-support",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stougeiro/stdw-support.git",
+                "reference": "ca51b27480579ae189b832cef1c5516c8f08af8a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stougeiro/stdw-support/zipball/ca51b27480579ae189b832cef1c5516c8f08af8a",
+                "reference": "ca51b27480579ae189b832cef1c5516c8f08af8a",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1"
+            },
+            "default-branch": true,
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "STDW\\Support\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "S.Tougeiro",
+                    "email": "sidneytougeiro@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/stougeiro/stdw-support/issues",
+                "source": "https://github.com/stougeiro/stdw-support/tree/main"
+            },
+            "time": "2023-10-18T23:41:25+00:00"
         }
     ],
     "packages-dev": [],
